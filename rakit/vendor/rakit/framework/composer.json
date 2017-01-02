@@ -1,0 +1,21 @@
+{
+    "name": "rakit/framework",
+    "description": "Another PHP micro framework inspired by Slim 2, laravel and lumen",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muhammad Syifa",
+            "email": "emsifa@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rakit\\Framework\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    }
+}
